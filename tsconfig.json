@@ -1,0 +1,22 @@
+{
+    "version": "2.0.2",
+
+
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES2017",
+        "moduleResolution": "Node",
+        "esModuleInterop": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "lib": [
+            "es6"
+        ],
+        "noImplicitAny": true,
+        "outDir": "./dist",
+        "sourceMap": true
+    },
+    "include": [
+        "./lib/**/*"
+    ]
+}
